@@ -67,5 +67,23 @@ body{
 	color: #C00;
 }
 .nav{
+	height: 40px;
 	clear: both;
+}
+.nav_left{
+	width: 10px;
+	background: url(../images/nav_left.jpg) no-repeat;
+}
+.nav_mid{
+	width: 980px;
+	background: url(../images/nav_bg.jpg) repeat-x;
+}
+.nav_right{
+	width: 10px;
+	background: url(../images/nav_right.jpg) no-repeat;
+	
+}
+.nav_left,.nav_mid,.nav_right{
+	float: left;
+	height: 40px;
 }
