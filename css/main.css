@@ -42,6 +42,9 @@ body{
 .logo{
 	height: 80px;
 }
+.logo:after{
+	clear: both;
+}
 .logo_left{
 	width: 200px;
 	float: left;
@@ -52,6 +55,7 @@ body{
 	height: 28px;
 	margin-top: 30px;
 	color: #8e8e8e;
+	display: inline;
 }
 .logo_right img{
 	vertical-align: middle;
@@ -61,4 +65,7 @@ body{
 	font-family: "微软雅黑";
 	font-size: 16px;
 	color: #C00;
+}
+.nav{
+	clear: both;
 }
