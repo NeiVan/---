@@ -4,14 +4,15 @@
 		<meta charset="UTF-8">
 		<title>慕课网首页制作</title>
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
+		<script type="text/javascript" src="js/setHomeSetFav.js"></script>
 	</head>
 	<body>
 		<div class="top">
 			<div class="top_content">
 				<ul>
-					<li>联系我们</li>
-					<li>加入收藏</li>
-					<li>设为首页</li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#" onclick="AddFavorite(window.location,document.title)">加入收藏</a></li>
+					<li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
 				</ul>
 			</div><!-- Top结束 -->
 		</div>
