@@ -87,3 +87,40 @@ body{
 	float: left;
 	height: 40px;
 }
+.nav_mid_left,.nav_mid_right{
+	float: left;
+}
+.nav_mid_left{
+	width: 680px;
+}
+.nav_mid_right{
+	width: 300px;
+}
+.nav_mid_left li{
+	float: left;
+	list-style-type: none;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+}
+.nav_mid_left a:link,.nav_mid_left a:visited{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.nav_mid_left a:hover,.nav_mid_left a:active{
+	color: #FF0;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.search_text{
+	width: 190px;
+	height: 25px;
+	margin-top: 5px;
+	background: url(../images/search.jpg) no-repeat right center;
+	background-color: #fff;
+	padding-right: 25px;
+	border: 1px solid #fff;
+}
